@@ -1,0 +1,24 @@
+server:
+  port: 9095
+
+
+
+spring:
+  #  profiles:
+  #    active: dev
+  application:
+    name: Nadeem
+  #    admin:
+#      jmx-name: Nadeem
+  datasource:
+    url: jdbc:mysql://localhost:3306/assignment?createDatabaseIfNotExist=true
+    username: admin
+    password: Daffodil@9090
+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: true
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
